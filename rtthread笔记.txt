@@ -1,0 +1,27 @@
+1、keil5可用的的编译器：CC_ARM、IAR_SYSTEMS_ICC、GNUC
+
+2、inline关键字：	对于一些重复调用的小函数，每次调用都会开辟栈空间，有时开辟函数栈
+				所花的时间大于函数执行的时间，此时可用inline修饰函数。
+					inline的效果类似于带参的宏，有着替换的效果，缺点是会增大代码量，
+				占用更多的内存。
+					仅适用于简短的代码。
+				参考：https://blog.csdn.net/zqixiao_09/article/details/50877383
+				
+3、align、 __align、 pragma pack(n)、 __attribute__((aligned(m)))、 __attribute__ ((__packed__))
+					参考：https://blog.csdn.net/minyuanxiani/article/details/82626919
+						  https://www.cnblogs.com/xidongs/p/5655440.html
+				字节对齐：http://c.biancheng.net/view/147.html	
+	
+4、#define ALIGN(size, align) ((size + align - 1) & (~(align - 1)))      
+//这个宏的功能是整数提升，即将size提升为align定义的整数的倍数。
+例如：align=8,size=7，则这条宏运行的结果是8；align=8,size=13，则这条宏运行的结果是16。
+
+   RT_ALIGN_DOWN(size, align)
+   
+5、在双向链表头部插入一个节点：对于给定的两个节点，先连接没有给定的一个，再链接给定的一个。
+
+6、数组和栈的生长方向：https://blog.csdn.net/qq_35218635/article/details/79198127
+
+7、字节对齐：	为了满足计算机读写内存的要求，对基本数据类型的合法地址作出一些限制，
+即它的地址必须是2，4或8的倍数。那么就要求各种数据类型按照一定的规则在空间上排列，这就是对齐。
+			    参考：https://mp.weixin.qq.com/s/VK_Tzf5qdVhvnvuljZF1wg

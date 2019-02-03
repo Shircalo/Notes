@@ -1,0 +1,12 @@
+1、makefile编写、make.exe用法：https://blog.csdn.net/alpha_love/article/details/62953847
+		      gcc.exe用法：https://www.cnblogs.com/chaguang/p/8306106.html
+			               https://www.cnblogs.com/spinsoft/archive/2012/09/11/2679688.html
+
+2、github教程:		
+	参考:	https://blog.csdn.net/Java155/article/details/78723113  （最简洁）
+			https://blog.csdn.net/qq_26591517/article/details/80597745  （结合着看）
+			https://blog.csdn.net/qq_25327609/article/details/72455899
+	git for windows:	https://www.cnblogs.com/roadone/p/7997644.html
+	
+	版本控制是一种记录一个或若干文件内容变化，以便将来查阅特定版本修订情况的系统
+
