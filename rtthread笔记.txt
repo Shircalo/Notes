@@ -140,6 +140,8 @@
 	NVIC_PENDSV_PRI       EQU           0x00FF0000      ; PendSV 优先级值(lowest)
 	NVIC_PENDSVSET        EQU           0x10000000      ; 触发PendSV exception的值
 
+23、register:register：这个关键字请求编译器尽可能的将变量存在CPU内部寄存器中，
+而不是通过内存寻址访问，以提高效率。注意是尽可能，不是绝对。
 
 
 
