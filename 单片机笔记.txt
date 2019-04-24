@@ -1,3 +1,7 @@
 1、选择启动文件：（1）、根据芯片型号查找对应flash的大小，方法：数据手册或芯片包
 	              （2）、选择flash对应的启动文件
 				  参考：http://www.51hei.com/bbs/dpj-37268-1.html
+				  
+2、时钟相关：https://blog.csdn.net/dp29sym41zygndvf/article/details/82321133
+
+

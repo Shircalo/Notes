@@ -1,0 +1,2 @@
+1、提取网页文字：1,在你要复制文字的页面，按F12，
+选择“ Console” 输入：document.body.innerText 然后按回车
